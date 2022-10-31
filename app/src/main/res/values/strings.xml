@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KrishiMitra</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="col1">msp prices</string>
+    <string name="live_weather_temperature"><![CDATA[Live weather & temperature]]></string>
+    <string name="mukhyamantri_krishak_durghatna_kalyan_yojana">MUKHYAMANTRI KRISHAK DURGHATNA KALYAN YOJANA</string>
+    <string name="krushi_vaividyakaran_yojana_2022_android_textsize">Krushi Vaividyakaran Yojana 2022” android:textSize=</string>
+
+</resources>

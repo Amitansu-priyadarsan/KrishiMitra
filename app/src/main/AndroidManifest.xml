@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.krishimitra">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/leaf2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/leaf2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WeatherApptutorial">
+        <activity
+            android:name="com.example.krishimitra.Telangana"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.kisancreditcard1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.andrpradesh"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.arunanchalpradesh"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.natinalmissionforsustainable"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.uttrakhand"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.tamilnadu"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.rajasthan"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.goa"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.gujurat2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.himachal"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.assam"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.punjabxml"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.microirrigation2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.microirrigation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.pmkisansanman"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.pradhanmantrikisan"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.garimbhandran"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.prandhan"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.madhyapradesh"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.bihar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.odisha"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.westbengal"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.tripura"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.uttarpradesh2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.jharkhand2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.karnataka"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.Central_Policies"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.Policies"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.Maharastra"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.Fertilizer_Prices"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.Seed_Prices"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.Msp_Prices"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.State_Policies"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.Prices"
+            android:exported="false" />
+        <activity
+            android:name="com.example.krishimitra.Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.krishimitra.Home"
+            android:exported="false" />
+        <activity android:name="com.example.krishimitra.cityFinder" />
+        <activity android:name="com.example.krishimitra.MainActivity" />
+    </application>
+
+</manifest>
