@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".odisha"
+    android:background="@color/Background_black">
+
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+        android:text=" BIJU KRUSHAK KALYAN YOJANA (BKKY)"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="BKKY is brought in as a tribute to the farmers and their families to provide them with health security.\n\nUnder the schemehealth insurance is being provided to five members of the family’s from 2013 under two streams.\n\nThe members of the insured family under stream-I are not included under RSBY (Rashtriya Swasta Bima Yojana) are provided insurance coverage of Rs. 30,000 and Rs. 70,000.\n\nSimilarly, the health insurance coverage under stream-II of BKKY is extended to those enrolled under RSBY with top up amount of Rs. 70,000 in addition to the Rs. 30,000 provided under RSBY."
+
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</RelativeLayout>

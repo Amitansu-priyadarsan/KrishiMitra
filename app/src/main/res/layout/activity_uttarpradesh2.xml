@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".uttarpradesh2">
+
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/mukhyamantri_krishak_durghatna_kalyan_yojana"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="Under this scheme, if a farmer meets an accident dies, or becomes disabled while working in the field then he or his family will be given a relief fund up to Rs. 5 lakhs.\n\nThe farmers in the age group of 18-70 years will be benefited from this scheme.\n\nThis scheme will be operated through the District Magistrate.\n\nAn application given after 75 days of the casualty will not be considered."
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+
+

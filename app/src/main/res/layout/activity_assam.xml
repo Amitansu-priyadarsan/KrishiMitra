@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".assam">
+
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:padding="10dp"
+
+
+        android:text="Assam Mukhyamantri Krishi Sa-Sajuli Yojna"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="The main purpose of launching Mukhya Mantri Krishi Sa-Sajuli Yojana or CM Farm Tool Scheme for farmers is their holistic development by implementing several farm mechanization schemes.\n\nAssam govt. will cover 5 lakh farmer families of the state and each farmer will be provided a financial benefit of Rs. 5000 under the scheme.\n\nLink to application form Form in Assamese Form in English
+    Himachal Pradesh
+    Prakritik Kheti Khushhal Kissan Yojana
+    The Government of Himachal Pradesh has proposed the Prakritik Kheti Khushhal Kissan Yojana to promote natural farming in the State. The scheme intends to provide subsidy with the financial assistance of Rs. 50,000 to encourage farmers for natural farming.
+    The objectives of the Prakritik Kheti Khushhal Kissan Yojana are given below:
+    · To lessen the cost of cultivation and to make natural farming a sustainable livelihood option.
+    · To enhance crop production and earn better prices for their produces in the market.
+    · To create awareness among farming community about natural farming.
+    · To minimise the usage of chemical fertilisers and pesticides."
+
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+
+
+</RelativeLayout>

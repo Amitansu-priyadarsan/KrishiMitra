@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".uttrakhand">
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+
+
+        android:text="Deendayal Upadhyay SahKarita Kisan Kalyan Yojana"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="The Government of Uttarakhand has introduced a farm loan scheme called Deendayal Upadhyay SahKarita Kisan Kalyan Yojana as an initiative to assist small and marginal farmers of the state.\n\nThis scheme will provide loan facilities to strengthen the rural economy and to improve the financial conditions of the farmers.\n\nUnder this scheme, the Uttarakhand government will provide loans of up to the farmers of the state at the low-interest rate.\n\nThe government will provide soil health card to the farmers so that they can use seeds, fertilizers or pesticides as per soil requirement.\n\nDirect Benefit Transfer is implemented in the state to transfer subsidies directly to the farmer’s bank accounts to buy fertilizer.\n\nAlso, the beneficiaries can get free gas connections under this scheme."
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

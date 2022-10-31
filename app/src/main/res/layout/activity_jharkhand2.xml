@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".jharkhand2">
+
+    <TextView
+        android:id="@+id/jharkhandt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Mukhyamantri Krishi Ashirwad Yojna (MKAY)"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jharkhandt1"
+        android:text="Mukhya Mantri Krishi Aashirwad Yojna is an ambitious scheme of the state government aimed at improving the financial situation of farmers and provide them with timely investment support before the start of the Kharif season.\n\nBenefit:\n\nMarginal and small farmers will be given Rs 5000 per acre per year (maximum up to 5 Acres) through Direct Benefit Transfer in their bank account.\n\nEligibility:\n\nAll the small and marginal farmers of the state, who have arable land up to a maximum of 5 acres are eligible to apply under the scheme.\n\nFor more details, please visit\nhttps://mmkay.jharkhand.gov.in/About.aspx"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".Home"
+    android:padding="15dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/hil12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/homet1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KrishiMitra"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/leaf" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hil113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hil12"
+                android:layout_marginVertical="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/hr1t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hello"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/hr1t1"
+                        android:text="Farmer!"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl">
+
+                    <TextView
+                        android:id="@+id/hr1t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="नमस्ते"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/hr1t2"
+                        android:text="कृषक!"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hil113"
+                android:layout_marginTop="30dp"
+                android:outlineSpotShadowColor="@color/light_black"
+                android:outlineAmbientShadowColor="@color/white"
+                app:cardBackgroundColor="@color/light_black"
+                app:cardCornerRadius="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/card1ll1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Policies"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/announcement32"
+                            android:layout_marginLeft="190dp"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/card1ll1"
+                        android:layoutDirection="rtl"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="15dp"
+                        android:text=" Know about policies offered by the \n central and state governments of \n India"
+                        android:textColor="#B6B6B4"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/homell2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card1home"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card2home"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/light_black"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/card2rl1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/card2ll1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layoutDirection="rtl"
+                                android:src="@drawable/rupee32" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:text="Msp Log"
+                                android:textColor="@color/white"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/card2ll1"
+                            android:layout_marginVertical="5dp"
+                            android:layout_marginTop="4dp"
+                            android:text=" MSPs for\n various crops"
+                            android:textColor="#B6B6B4"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card3home"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/light_black"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/card3rl1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/card3ll1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layoutDirection="rtl"
+                                android:src="@drawable/flask32" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:text="Fertilizer"
+                                android:textColor="@color/white"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/card3ll1"
+                            android:layout_marginVertical="5dp"
+                            android:text="Current\nfertilizer prices"
+                            android:textColor="#B6B6B4"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homell2"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card4home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/light_black"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/card4rl1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/card4ll1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layoutDirection="rtl"
+                                android:src="@drawable/correct32" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:text="Seeds"
+                                android:textColor="@color/white"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/card4ll1"
+                            android:layout_marginVertical="5dp"
+                            android:text="Seed prices for \nvarious crops"
+                            android:textColor="#B6B6B4"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card5home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/light_black"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/card5rl1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/card5ll1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layoutDirection="rtl"
+                                android:src="@drawable/weather32" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:text="Weather"
+                                android:textColor="@color/white"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/card5ll1"
+                            android:layout_marginVertical="5dp"
+                            android:text="@string/live_weather_temperature"
+                            android:textColor="#B6B6B4"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/Background_black"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/menu_navigation" />
+
+
+
+</RelativeLayout>

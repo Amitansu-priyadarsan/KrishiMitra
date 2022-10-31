@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".rajasthan">
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+
+
+        android:text="Rajasthan Kisan Rin Vitran Yojana"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="Under this scheme, the farmers are provided with agricultural loans for buying crops, harvesting and other farm-related activities.\n\nThis scheme is also called as “Paperless Agriculture Crop Loan” and will be supervised by the state authority of agriculture.\n\nThe farmers are provided with the facility of easy and quick loan sanctions with competitive interest rates.The loan can be used for multiple needs of crop production, farm mechanisation and consumption needs.\n\nThis scheme has been implemented by the State Government to overcome the financial crisis of the farmers who are under Economically Weaker Section.\n\nUnder this scheme, the Rajasthan Government is committed to providing loans to the farmers at the least rate of interest.\n\nThis scheme also ensures to improve the financial conditions of farmers to bring stability in their livelihood.\n\nThe biometric verification process of beneficiaries will be done for providing the loans.\n\nThe cooperative banks will credit the agricultural loans and also ensures the authenticity of the workers before sanctioning the loans."
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

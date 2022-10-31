@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".goa"
+    android:background="@color/Background_black">
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+
+
+        android:text="Seaweed Cultivation Scheme for Fishermen"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="The objective of this scheme is as follows.\n\nGenerate income-generating opportunities for the fishermen residing in the coastal areas.\n\nReduce the fishing pressure among the small scale fishermen.\n\nImprove cultivation through advanced harvesting and transplanting techniques.\n\nConducting surveys to recognise suitable sites for large scale seaweed cultivation.\n\nOffer substitute livelihood opportunity for fishers during the fishing ban time.\n\nAddress the issue of aggregate industrial demand for seaweeds such as Agar, Agarose, Carrageenan and Alginates.\n\nEnhance the production of seed materials of the seaweed to address the increasing demand in the market.\n\nEncourage fish farmers to adopt eco-friendly methods and preserve the natural resources."
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</RelativeLayout>

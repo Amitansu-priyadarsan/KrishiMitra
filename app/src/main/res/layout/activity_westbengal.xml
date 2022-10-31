@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".westbengal">
+
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+
+        android:text="Krishak Bandhu Prakalpa Scheme"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="Krishak Bandhu Assured Income Scheme seeks to provide the farmers with a financial assistance of Rs. 10,000 per year (Rs. 5,000 per acre in two instalments)\n\nA one-time grant of Rs. 2 lakhs would be provided to the dependents of the farmers under the Krishak Bandhu Death Benefit Scheme (for which the farmers need not pay any premiums)"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".himachal">
+
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+
+
+        android:text="Prakritik Kheti Khushhal Kissan Yojana"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="The Government of Himachal Pradesh has proposed the Prakritik Kheti Khushhal Kissan Yojana to promote natural farming in the State.\n\nThe scheme intends to provide subsidy with the financial assistance of Rs. 50,000 to encourage farmers for natural farming.\n\nThe objectives of the Prakritik Kheti Khushhal Kissan Yojana are given below:\nTo lessen the cost of cultivation and to make natural farming a sustainable livelihood option.\nTo enhance crop production and earn better prices for their produces in the market.\nTo create awareness among farming community about natural farming.\nTo minimise the usage of chemical fertilisers and pesticides."
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

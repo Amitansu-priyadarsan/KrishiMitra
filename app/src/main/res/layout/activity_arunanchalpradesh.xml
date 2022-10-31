@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".arunanchalpradesh">
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:padding="10dp"
+
+
+        android:text="Krishi Rinn Yojana"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="The Finance Department of the Arunachal Pradesh Government has introduced
+a loan scheme named Krishi Rinn Yojana to benefit the farmers of the State.\n\nThe scheme was launched with the motive of lessening the financial burden of the farmers by offering them easy access to formal credit through banking channels.\n\nThis scheme allows quicker clearance of loan within a time limit under single window.\n\nThe scheme benefits include granting a zero interest crop loan with an interest subvention of 4% per annum on crop loan that can be accessed using Kisan Credit Card issued in the
+name of the farmer.\n\nTimely repayment of the loan enables the farmers to enjoy an interest
+relief of 3% per annum.\n\nThe scheme renders zero interest credit facility for the farmers who take up a loan up to
+Rs.3 Lakhs and make their payment on time within one year of disbursement."
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+
+</RelativeLayout>

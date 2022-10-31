@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".tamilnadu">
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+
+
+        android:text="Tamil Nadu Integrated Farming Scheme"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="The Agriculture Department of Tamil Nadu is vested with its implementation of this scheme.\n\nThis scheme is envisaged to promote mixed farming which will, in turn, increase the productivity levels and the income of farmers.\n\nEach farmer gets a subsidy worth INR 100000 towards the implementation of this scheme.\n\nThe Scheme would be benefiting the poor and economically weaker farmers of the State.\n\nThe scheme facilitates the farmers to grow their crops naturally and utilize their agricultural land appropriately.\n\nIn addition to this, they may also perform a few other basic agricultural practices which would ensure an increase in their income ratio.\n\nThese practices may include works such as Poultry, Dairy Farming and others.\n\nThrough this scheme, the Tamil Nadu State Government is also trying to adopt the Micro irrigation procedures instead of the primitive farming methods.\n\nApart from contributing to the increase in the income of farmers, the substances provided by the Scheme helps in improving the irrigation potential of soil through recycling farm waste."
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

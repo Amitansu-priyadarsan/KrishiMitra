@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".gujurat2">
+
+    <TextView
+        android:id="@+id/goat1"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Krushi Vaividyakaran Yojana 2022"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="Under this Krushi Vaividhyakaran Yojana 2022-23, the state government will provide seeds and fertilizers at highly subsidised rates to around 1.23 lakh tribal farmers.\n\nThe Agricultural Diversification Project has already been in force for the past 1 decade and is meant to double the income of tribal farmers.\n\nUnder Krushi Vaividyakaran Yojana 2022, Gujarat government will distribute kits containing seeds and fertilizers. The estimated cost of one kit is Rs. 3,240 but the beneficiaries are charged Rs. 250 only.\n\nKits under Gujarat Agriculture Diversification Scheme\nOrganic fertilisers are being given out under Krushi Vaividyakaran scheme since 2021. Under this scheme, a tribal beneficiary will be given the following items:-\n· High-yielding seeds for vegetables or maize\n· A bag of DAP (Diammonium phosphate)\n· One bag of organic fertilisers\n"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</RelativeLayout>

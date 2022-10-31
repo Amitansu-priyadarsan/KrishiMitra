@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".bihar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/goat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingBottom="20dp"
+
+                android:text="Bihar Rajya Fasal Sahayata Yojana"
+                android:textColor="@color/text_black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="The scheme strives to back the farmers with financial incentives in the event of a crop loss due to natural calamities.\n\nIf the farmers’ rate of production is less than 20% of the threshold limit, he or she will receive a sum of Rs 7,500 per hectare for a maximum of two hectares.\n\nIf a farmers’ loss in production exceeds 20%, he/she will be incentivized with a Sum of Rs. 10,000 per hectare for a maximum of two hectares.\n\nThe scheme does not restrict the farmers who have availed loans from nationalized banks, Cooperative banks and other institutions; as it covers the borrowers from other agencies too.\n\nKrishi Input Subsidy Scheme\n\nKrishi Input Subsidy Scheme provides subsidy against the crops affected due to drought or flood.\n\nThe subsidy amount will be provided to the farmers affected by the damage of crop during Kharif season or due to low rainfall fallow land will be made at the rate of Rs.6800 per hectare.\n\nFor unirrigated crops, Rs.6800 per hectare will be paid.\n\nFor irrigated crops, Rs.13500 per hectare will be paid.\n\nFor perennial crops, Rs.18000 per hectare will be paid."
+
+
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maharastra"
+    android:background="@color/Background_black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/goat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingBottom="20dp"
+                android:text="Krishi Jeevan Kalyan Yojana"
+                android:textColor="@color/text_black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/mpt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/goat1"
+                android:padding="10dp"
+                android:text="If a farmer faces an unexpected death due to an accident,
+
+A financial assistance of Rs.4,00,000 is offered to the direct family of the farmer.
+
+If the farmer has been affected by a permanent disability, Rs.1,00,000 is disbursed as an aid while it is Rs.50,000 for a partial disability. Besides, this scheme also renders a support of Rs.4000 for the funeral."
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/goat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mpt2"
+                android:padding="10dp"
+                android:paddingBottom="20dp"
+                android:text="Mukhyamantri Saur Krushi Pump Yojana"
+                android:textColor="@color/text_black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/goat3"
+                android:padding="10dp"
+                android:text="The Government of Maharashtra has introduced the Mukhyamantri Saur Krushi Pump Yojana to promote solar energy. Under this scheme, the Maharashtra Government will provide a 95% subsidy to the farmers for setting up of solar pump sets.
+
+The features of the Mukhyamantri Saur Krushi Pump Yojana are as follows:
+
+· Mukhyamantri Saur Krushi Pump Yojana aims to reach out farmers from remote areas where the agricultural feeder is not possible.
+
+· As per the scheme guidelines, the government will provide solar pumps at subsidised rates for the farmers.
+
+· Under the scheme, 3HP or 5HP solar pumps would be installed along with the lighting system comprising of 2 LED bulbs, 1 USB port for mobile charging and socket for battery charging.
+
+· The Government has targeted deployment of 1 lakh Off-Grid Solar-powered Ag pumps in phase manner.
+
+· Under the scheme, the farmers with less than 5 acres will get subsidy at the rate of 95% of the total cost of 3 HP solar pump while farmers with more than 5 acres will be provided with 5 HP solar pump for Rs.30,000."
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

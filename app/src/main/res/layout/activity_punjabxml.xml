@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_black"
+    tools:context=".punjabxml">
+
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+
+
+        android:text="Micro Irrigation Scheme"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:padding="10dp"
+        android:text="The Micro Irrigation systems give irrigation efficiency as high as 80%-90% in case of drip irrigation and 60%-70% in case of sprinkler irrigation in comparison to normal irrigation's efficiency of 30%-40%.\n\nPunjab Government has been providing total assistance @ 80% of actual market cost of Micro Irrigation to farmers.\n\nAdditional top-up subsidy over and above PMKSY has been provided out of ‘Project for Promotion of Micro Irrigation (NABARD-RIDF-20)’.\n\nAdditional 10% subsidy is also provided to Women, Small/Marginal and SC farmers. There is no maximum ceiling of area."
+
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

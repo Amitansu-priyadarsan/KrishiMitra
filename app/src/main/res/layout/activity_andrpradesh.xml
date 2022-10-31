@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".odisha"
+    android:background="@color/Background_black">
+
+
+    <TextView
+        android:id="@+id/goat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:padding="10dp"
+
+
+        android:text="YSR Rythu Bharosa"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goat1"
+        android:text="YSR Rythu Bharosa scheme will give assistance of Rs. 50,000 to farmers owning up to 5 acres of land. \n\nFor 4 years, farmers who own land will be given Rs.12,500 as aid before the start of the sowing season. (Rabi and Kharif seasons)\n\nThe scheme will also give total assistance of Rs.2500 crore to tenant farmers.\n\nThe main feature of the scheme is that the money will be directly deposited in the farmer’s bank account doing away with all middlemen and avoiding the pitfalls of corruption of any kind in the disbursement of funds.\n\nThere will also be free power supply during the day for 9 hours.\n\nBorewell digging will be free of cost for all farmers. About 200 borewell drill rigs will be provided for every Assembly and Parliamentary constituencies."
+        android:padding="10dp"
+
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>
