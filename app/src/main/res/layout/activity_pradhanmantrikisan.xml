@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pradhanmantrikisan"
+    android:background="@color/Background_black">
+
+
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+        android:text="Pradhan Mantri Kisan Maan-Dhan Yojana (PM-KMY)"
+        android:textColor="@color/text_black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/pradhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pt1"
+        android:padding="10dp"
+        android:text="This scheme is especially for farmers between the age of 18-40 years.\n\nTo avail of the benefit of this scheme, the farmer has to register under the pension fund.\n\nThe Scheme is administered through the farmers’ cooperation and welfare department of agriculture.\n\nThis scheme also focuses on the welfare of small and marginal farmers.\n\nMonthly income of minimum Rs. 3000 shall be provided to farmers above 60 years of age."
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
